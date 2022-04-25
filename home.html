@@ -11,8 +11,8 @@
     <title>TRPG COC</title>
 </head>
 <body>
-    <article>
-        <div id="app" class="container-fluid">
+    <article id="app">
+        <div class="container-fluid">
             <div class="header">
                 <a href="#Home" class="logo">TRPG COC</a>
                 <div class="header-right">
@@ -118,7 +118,10 @@
         </div>
     </footer>
     <script>
-
+        new Vue({
+            el:'app'
+            
+        })
     </script>
     
 </body>
